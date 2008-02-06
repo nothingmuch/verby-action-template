@@ -3,12 +3,11 @@
 use strict;
 use warnings;
 
-use Test::More;
-use Test::Plan;
+use Test::More tests => 9;
 use Test::MockObject;
 use Test::Exception;
 
-BEGIN { plan tests => 8, [qw/Template/] }
+use ok 'Template';
 
 use File::Temp qw/tempfile/;
 use File::Spec;
