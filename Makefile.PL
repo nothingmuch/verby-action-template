@@ -12,8 +12,10 @@ WriteMakefile(
 	PL_FILES     => { },
 	PREREQ_PM    => {
         'Verby' => '0.04',
-		'Test::use::ok' => 0,
         'Template' => 0,
+        'Test::use::ok' => 0,
+        'Test::Exception' => 0,
+        'Test::MockObject' => 0,
 	},
 );
 
